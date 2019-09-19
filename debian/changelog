@@ -1,3 +1,11 @@
+python-click (7.0-2) UNRELEASED; urgency=medium
+
+  * debian/control
+    - adopt under DPMT umbrella; Thanks Alexandre for your previous work!
+      Closes: #940333
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 19 Sep 2019 19:17:38 -0400
+
 python-click (7.0-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
