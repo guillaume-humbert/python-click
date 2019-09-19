@@ -19,8 +19,8 @@ Build-Depends-Indep: python-requests,
                      python3-pytest,
                      python3-colorama
 Standards-Version: 4.4.0
-Vcs-Browser: https://salsa.debian.org/debian/python-click
-Vcs-Git: https://salsa.debian.org/debian/python-click.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-click
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-click.git
 Homepage: https://github.com/pallets/click
 Testsuite: autopkgtest-pkg-python
 
