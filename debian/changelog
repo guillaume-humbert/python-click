@@ -1,6 +1,7 @@
 python-click (7.0-3) UNRELEASED; urgency=medium
 
   * Use debhelper-compat instead of debian/compat.
+  * Bump Standards-Version to 4.4.1.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 18 Oct 2019 16:34:51 +0200
 
