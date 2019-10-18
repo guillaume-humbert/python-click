@@ -1,3 +1,9 @@
+python-click (7.0-3) UNRELEASED; urgency=medium
+
+  * Use debhelper-compat instead of debian/compat.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 18 Oct 2019 16:34:51 +0200
+
 python-click (7.0-2) unstable; urgency=medium
 
   * debian/control
