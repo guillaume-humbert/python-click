@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Sandro Tosi <morph@debian.org>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Build-Depends: debhelper-compat (= 9),
+Build-Depends: debhelper (>= 11.1.4~),
                dh-python,
                python-all,
                python-setuptools,
@@ -18,7 +18,7 @@ Build-Depends-Indep: python-requests,
                      python3-requests,
                      python3-pytest,
                      python3-colorama
-Standards-Version: 4.4.1
+Standards-Version: 4.1.4
 Vcs-Browser: https://salsa.debian.org/python-team/modules/python-click
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-click.git
 Homepage: https://github.com/pallets/click
@@ -53,19 +53,3 @@ Description: Wrapper around optparse for command line utilities - Python 3.x
  an intended CLI API.
  .
  This is the Python 3 compatible package.
-
-Package: python-click-doc
-Section: doc
-Architecture: all
-Depends: ${misc:Depends}, ${sphinxdoc:Depends}
-Description: Wrapper around optparse for command line utilities - documentation
- Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary.  It's the "Command
- Line Interface Creation Kit".  It's highly configurable but comes with
- sensible defaults out of the box.
- .
- It aims to make the process of writing command line tools quick and fun
- while also preventing any frustration caused by the inability to implement
- an intended CLI API.
- .
- This package contains the documentation for Click.

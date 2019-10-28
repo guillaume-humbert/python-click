@@ -1,32 +1,8 @@
-python-click (7.0-3) UNRELEASED; urgency=medium
+python-click (7.0-1~ubuntu1) bionic; urgency=medium
 
-  * Use debhelper-compat instead of debian/compat.
-  * Bump Standards-Version to 4.4.1.
+  * Ubuntu Packaging.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 18 Oct 2019 16:34:51 +0200
-
-python-click (7.0-2) unstable; urgency=medium
-
-  * debian/control
-    - adopt under DPMT umbrella; Thanks Alexandre for your previous work!
-      Closes: #940333
-    - bump Standards-Version to 4.4.0 (no changes needed)
-    - Update Vcs-* fields to DPMT location
-  * debian/copyright
-    - add packaging copyright
-
- -- Sandro Tosi <morph@debian.org>  Thu, 19 Sep 2019 19:24:24 -0400
-
-python-click (7.0-1) unstable; urgency=medium
-
-  [ Ondřej Nový ]
-  * Use 'python3 -m sphinx' instead of sphinx-build for building docs
-
-  [ Alexandre Viau ]
-  * New upstream version. (Closes: #918561)
-  * d/watch: support Click and click.
-
- -- Alexandre Viau <aviau@debian.org>  Mon, 07 Jan 2019 11:53:07 -0500
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Mon, 28 Oct 2019 17:52:32 +0800
 
 python-click (6.7+git20180829-1) unstable; urgency=medium
 

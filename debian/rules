@@ -10,10 +10,9 @@ export PYBUILD_TEST_ARGS={dir}/tests/
 export SOURCE = $(CURDIR)/debian/
 
 %:
-	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
+	dh $@ --with python2,python3 --buildsystem=pybuild
 
-override_dh_sphinxdoc:
-ifeq (,$(findstring nodoc, $(DEB_BUILD_OPTIONS)))
-	http_proxy='http://127.0.0.1:9/' PYTHONPATH=. python3 -m sphinx -N -q -E -b html docs/ debian/python-click-doc/usr/share/doc/python-click/html/
-	dh_sphinxdoc
-endif
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -Rf .pybuild
+	git checkout -- Click.egg-info/SOURCES.txt || echo -n
